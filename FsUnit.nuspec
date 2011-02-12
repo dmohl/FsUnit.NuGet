@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>FsUnit</id>
+    <version>0.9.0</version>
+    <dependencies>
+      <dependency id="NUnit" version="2.5.7.10213" />
+    </dependencies>
+    <authors>Ray Vernagus (FsUnit), Daniel Mohl (NuGet Package)</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>FsUnit is a set of extensions that add special testing syntax to NUnit.</description>
+    <summary>The goals of FsUnit are to make unit-testing feel more functional while leverage existing testing frameworks.</summary>
+    <language>en-US</language>
+    <projectUrl>http://fsunit.codeplex.com/</projectUrl> 
+    <licenseUrl>http://fsunit.codeplex.com/license</licenseUrl>
+  </metadata>
+  <files>
+	  <file src="Content\*.pp" target="Content" />
+	  <file src="Lib\*.dll" target="Lib" />
+  </files>
+</package>
