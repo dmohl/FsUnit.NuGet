@@ -21,7 +21,7 @@ type ``Given a LightBulb that has had its state set to true`` ()=
     [<Test>] member test.
      ``when I convert it to a string it becomes "On".`` ()=
             string lightBulb |> should equal "On"
-			
+
 [<TestFixture>]
 type ``Given a LightBulb that has had its state set to false`` ()=
     let lightBulb = new LightBulb(false)
@@ -32,4 +32,4 @@ type ``Given a LightBulb that has had its state set to false`` ()=
     
     [<Test>] member test.
      ``when I convert it to a string it becomes "Off".`` ()=
-            string lightBulb |> should equal "Off"			
+            string lightBulb |> should equal "Off"
